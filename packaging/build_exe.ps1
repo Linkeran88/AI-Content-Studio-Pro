@@ -73,6 +73,21 @@ Invoke-Step $Python -m PyInstaller `
   --collect-data faster_whisper `
   --collect-binaries ctranslate2 `
   --collect-data ctranslate2 `
+  --exclude-module torch `
+  --exclude-module torchvision `
+  --exclude-module torchaudio `
+  --exclude-module transformers `
+  --exclude-module scipy `
+  --exclude-module sklearn `
+  --exclude-module pandas `
+  --exclude-module pyarrow `
+  --exclude-module cv2 `
+  --exclude-module boto3 `
+  --exclude-module botocore `
+  --exclude-module grpc `
+  --exclude-module lxml `
+  --exclude-module nltk `
+  --exclude-module matplotlib `
   main.py
 
 Write-Host ""
