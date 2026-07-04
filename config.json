@@ -1,0 +1,27 @@
+{
+  "default_whisper_model": "small",
+  "default_llm_model": "qwen2.5:7b",
+  "output_dir": "output",
+  "temp_dir": "temp",
+  "whisper": {
+    "device": "auto",
+    "compute_type": "auto",
+    "language": "zh",
+    "beam_size": 5,
+    "vad_filter": true,
+    "cuda_search_dirs": [],
+    "local_model_dirs": []
+  },
+  "ollama": {
+    "base_url": "http://127.0.0.1:11434",
+    "timeout_seconds": 300,
+    "temperature": 0.7,
+    "num_ctx": 8192,
+    "local_model_dirs": []
+  },
+  "obsidian": {
+    "vault_dir": "",
+    "inbox_dir": "AI Content Studio",
+    "open_after_push": true
+  }
+}
