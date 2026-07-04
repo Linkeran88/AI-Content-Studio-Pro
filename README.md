@@ -4,6 +4,12 @@ AI Content Studio Pro 是一款 Windows 桌面端的本地 AI 内容工作流工
 
 项目重点是本地化、隐私友好、可打包交付：视频、转写文本和生成内容默认保存在本机；语音识别使用 faster-whisper；内容生成使用 Ollama 本地模型。
 
+## 下载
+
+Windows 用户可以在 GitHub Releases 下载双击安装包：
+
+[Download AI Content Studio Pro](https://github.com/Linkeran88/AI-Content-Studio-Pro/releases)
+
 ## 功能亮点
 
 - 拖拽或选择视频文件
